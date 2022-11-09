@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    padding: 10px;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.container p,.container h2{
+    margin:10px 0;
+}
+
+button{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
