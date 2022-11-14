@@ -20,9 +20,6 @@ function showAlert(){
     const footer = document.getElementsByClassName("footer")[0];
    if (footer.childElementCount ==0){
     footer.appendChild(newpar);
-    setTimeout(function(){
-        newpar.remove();
-    },1000);
-   }
+ 
     
 }
